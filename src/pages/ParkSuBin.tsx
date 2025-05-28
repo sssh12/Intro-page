@@ -118,18 +118,24 @@ function SectionNavBar({
     "Education",
     "Contact",
   ];
+
+  const handleClick = (idx: number, e: React.MouseEvent<HTMLButtonElement>) => {
+    sectionRefs[idx].current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+    e.currentTarget.blur();
+  };
+
   return (
-    <nav className="fixed top-1/2 left-6 -translate-y-1/2 z-50 flex flex-col gap-6 bg-[#181818]/80 rounded-2xl px-3 py-6 shadow-2xl border border-[#333]">
+    <nav
+      className="fixed top-1/2 left-6 -translate-y-1/2 z-50 flex flex-col gap-6 bg-[#181818]/80 rounded-2xl px-3 py-6 shadow-2xl border border-[#333] 
+      hidden sm:flex"
+    >
       {labels.map((label, idx) => (
         <button
           key={label}
-          onClick={(e) => {
-            sectionRefs[idx].current?.scrollIntoView({
-              behavior: "smooth",
-              block: "start",
-            });
-            e.currentTarget.blur();
-          }}
+          onClick={(e) => handleClick(idx, e)}
           className="group flex flex-col items-center focus:outline-none cursor-pointer"
         >
           <span

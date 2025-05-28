@@ -262,7 +262,7 @@ function MoonJaeWoong({
             실질적인 가치를 만들어내는 개발자가 되고 싶습니다.
           </p>
           <img
-            src="./src/assets/images/문재웅.png"
+            src="./src/public/assets/images/문재웅.png"
             alt="문재웅"
             className="w-40 h-40 md:w-52 md:h-52 rounded-full object-cover border-4 border-[#e50914] shadow-xl bg-[#181818] mb-2"
           />

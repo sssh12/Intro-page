@@ -212,7 +212,7 @@ function OhSeungHa({
       ],
       detail:
         "React + TypeScript + Tailwind CSS와 Framer Motion으로 구현한 스크롤 애니메이션 프론트엔드 포트폴리오 사이트", // 직접 입력
-      image: "./src/assets/images/portfolio.png",
+      image: "./src/public/assets/images/portfolio.png",
     },
     {
       id: 2,
@@ -231,7 +231,7 @@ function OhSeungHa({
       ],
       detail:
         "ejs view 모듈들을 연결하고 express와 mongodb로 구현한 기술 공부 블로그",
-      image: "./src/assets/images/blog.png",
+      image: "./src/public/assets/images/blog.png",
     },
     {
       id: 3,
@@ -247,7 +247,7 @@ function OhSeungHa({
       ],
       detail:
         "React + Styled Components로 트위터 UI 디자인을 클론하고 Firebase를 이용해 게시글 및 코멘트 CRUD와 개인 프로필을 구현해본 사이트",
-      image: "./src/assets/images/cloneTwitter.png",
+      image: "./src/public/assets/images/cloneTwitter.png",
     },
     {
       id: 4,
@@ -270,7 +270,7 @@ function OhSeungHa({
       ],
       detail:
         "JavaScript로 SPA 웹을 구현해본 프로젝트이며 SortableJS 라이브러리를 활용해 드래그 앤 드롭 이벤트를 구현해본 일정 관리 웹",
-      image: "./src/assets/images/collweb.png",
+      image: "./src/public/assets/images/collweb.png",
     },
     {
       id: 5,
@@ -290,7 +290,7 @@ function OhSeungHa({
       ],
       detail:
         "React + TypeScript + Tailwind CSS와 Firebase를 활용해 구현한 게시판 자유 생성 커뮤니티 사이트 게시판, 게시글, 댓글 CRUD를 모두 구현해보았음",
-      image: "./src/assets/images/luvwu.png",
+      image: "./src/public/assets/images/luvwu.png",
     },
     {
       id: 6,
@@ -305,7 +305,7 @@ function OhSeungHa({
         },
       ],
       detail: "html + css + javascript로만 구현해본 투두 리스트 사이트",
-      image: "./src/assets/images/todo.png",
+      image: "./src/public/assets/images/todo.png",
     },
   ];
 
@@ -396,7 +396,7 @@ function OhSeungHa({
         transition={{ duration: 0.4 }}
       >
         <img
-          src="./src/assets/images/오승하.png"
+          src="./src/public/assets/images/오승하.png"
           alt="오승하"
           className="w-40 h-40 md:w-52 md:h-52 rounded-full object-cover border-4 border-[#e50914] shadow-xl bg-[#181818] mb-8"
         />

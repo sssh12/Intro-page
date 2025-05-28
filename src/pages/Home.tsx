@@ -5,19 +5,19 @@ const profiles = [
   {
     id: 1,
     name: "오승하",
-    image: "./src/assets/images/오승하.png",
+    image: "./src/public/assets/images/오승하.png",
     path: "/profile/1",
   },
   {
     id: 2,
     name: "박수빈",
-    image: "./src/assets/images/박수빈.png",
+    image: "./src/public/assets/images/박수빈.png",
     path: "/profile/2",
   },
   {
     id: 3,
     name: "문재웅",
-    image: "./src/assets/images/문재웅.png",
+    image: "./src/public/assets/images/문재웅.png",
     path: "/profile/3",
   },
 ];
@@ -32,7 +32,7 @@ export default function ProfileSelection() {
       transition={{ duration: 0.4 }}
     >
       {/* 배경 이미지 */}
-      <div className="absolute inset-0 -z-10 bg-[url('./assets/images/backGround.png')]" />
+      <div className="absolute inset-0 -z-10 bg-[url('./public/assets/images/backGround.png')]" />
       {/* 블러 오버레이 */}
       <div className="absolute inset-0 -z-10 backdrop-blur-sm bg-black/50" />
       <h1 className="text-4xl font-bold mb-8">프로필 선택</h1>

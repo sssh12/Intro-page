@@ -93,7 +93,7 @@ export function ScrollLinkedParkSuBin() {
       <SectionNavBar sectionRefs={sectionRefs} activeIdx={activeIdx} />
       <div
         ref={containerRef}
-        className="h-screen overflow-y-auto bg-gradient-to-b from-[#23272f] via-[#18181c] to-[#23272f] text-[#e5e5e5]"
+        className="h-screen overflow-y-auto bg-gradient-to-b from-[#23272f] via-[#18181c] to-[#23272f] text-[#e5e5e5] scroll-smooth"
         style={{ scrollBehavior: "smooth" }}
       >
         <ParkSuBin sectionRefs={sectionRefs} />
@@ -184,7 +184,7 @@ function ParkSuBin({
             대학생
           </h1>
           <img
-            src="./src/public/assets/images/박수빈.png"
+            src="/Intro-page/assets/images/박수빈.png"
             alt="박수빈"
             className="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover border-4 border-[#e50914] shadow-xl mb-6 bg-[#181818]"
           />
@@ -311,7 +311,7 @@ function ParkSuBin({
           <li className="mb-6">
             <div className="relative w-full max-w-lg mx-auto">
               <img
-                src="./src/public/assets/images/카페 사진.jpg"
+                src="/Intro-page/assets/images/카페 사진.jpg"
                 alt="카페 메뉴 사이트"
                 className="rounded-xl w-full object-cover"
               />
@@ -328,7 +328,7 @@ function ParkSuBin({
           <li>
             <div className="relative w-full max-w-lg mx-auto">
               <img
-                src="./src/public/assets/images/289.png"
+                src="/Intro-page/assets/images/289.png"
                 alt="요리 레시피 - 사진 페이지"
                 className="rounded-xl w-full object-cover"
               />

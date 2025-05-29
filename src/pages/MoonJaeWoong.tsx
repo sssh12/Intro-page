@@ -239,7 +239,7 @@ function MoonJaeWoong({
 
   return (
     <motion.div
-      className="flex flex-col items-center w-full min-h-screen bg-gradient-to-b from-[#23272f] via-[#18181c] to-[#23272f] text-[#e5e5e5]"
+      className="flex flex-col items-center w-full min-h-screen bg-gradient-to-b from-[#23272f] via-[#18181c] to-[#23272f] text-[#e5e5e5] scroll-smooth"
       initial={{ opacity: 0, scale: 0.98 }}
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 1.02 }}
@@ -262,7 +262,7 @@ function MoonJaeWoong({
             실질적인 가치를 만들어내는 개발자가 되고 싶습니다.
           </p>
           <img
-            src="./src/public/assets/images/문재웅.png"
+            src="/Intro-page/assets/images/문재웅.png"
             alt="문재웅"
             className="w-40 h-40 md:w-52 md:h-52 rounded-full object-cover border-4 border-[#e50914] shadow-xl bg-[#181818] mb-2"
           />

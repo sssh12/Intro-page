@@ -5,4 +5,13 @@ body {
   overflow: auto;
   height: 100%;
   min-height: 100%;
+  overscroll-behavior: none;
+}
+
+#root {
+  overscroll-behavior: none;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
